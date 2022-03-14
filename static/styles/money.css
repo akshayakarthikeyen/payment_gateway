@@ -1,0 +1,63 @@
+body{
+  top:50%;
+  left:50%;
+  text-align: center;
+  background-color: darkgrey;
+  background-image: url('../img/donation.jpg');
+  background-size: cover;
+}
+.t{
+
+      border-radius: 20px;
+      width: 350px;
+      height: 420px;
+      background-image: linear-gradient(to right, #9ed17f , #d9d954);
+      color: white;
+      top:20%;
+      left:60%;
+      position: absolute;
+      font-size: 30px;
+      box-sizing: border-box;
+      padding: 20px 20px;
+
+}
+
+.t input[type='submit']{
+  border: none;
+  outline: none;
+  height: 40px;
+  background: #fb2525;
+  color: #fff;
+  font-size: 18px;
+  border-radius: 20px;
+}
+.t input[type='submit']:hover{
+  cursor: pointer;
+  background: #ffc107;
+  color: #000;
+  border-top: 70px;
+
+}
+.t input[type='text'] , input[type='number'],input[type='email']{
+  border: none;
+  border-bottom: 1px solid #fff;
+  outline: none;
+  height: 40px;
+  background: transparent;
+  color: #fff;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+.pay{
+  width: 320px;
+  height: 200px;
+  background: radial-gradient(ellipse at right bottom, #EEB1BF 5%, #d42dab 25%, #4d1d63 50%, #030243 100%);;
+  color: black;
+  border-radius: 40px;
+  top:50%;
+  left:85%;
+  position: absolute;
+  transform: translate(-50% , -50%);
+  box-sizing: border-box;
+  padding: 50px 30px;
+}
